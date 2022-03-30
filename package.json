@@ -1,0 +1,27 @@
+{
+  "name": "cypress-canvas-render-test",
+  "version": "1.0.0",
+  "description": "temp bug replication project",
+  "main": "index.js",
+  "scripts": {
+    "server": "python3 -m http.server 8006 --bind 127.0.0.1",
+    "cypress:run": "node_modules/cypress/bin/cypress run",
+    "cypress:open": "node_modules/cypress/bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikatalk/cypress-canvas-render-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikatalk/cypress-canvas-render-test/issues"
+  },
+  "homepage": "https://github.com/mikatalk/cypress-canvas-render-test#readme",
+  "dependencies": {
+    "three": "^0.139.0"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.3"
+  }
+}
